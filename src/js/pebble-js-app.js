@@ -349,7 +349,7 @@ var SnakeGame = {
                        
                 init: function(){
                   
-                  var SNAKE_SERVER_IP = "162.243.4.89:4040" // HERE
+                  var SNAKE_SERVER_IP = "162.243.4.89" // HERE
                         var wsUri = "ws://" + SNAKE_SERVER_IP;
  
                         var websocket = new WebSocket(wsUri);
